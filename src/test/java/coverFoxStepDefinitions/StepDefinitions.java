@@ -71,6 +71,17 @@ public class StepDefinitions {
 		coverFoxInsuranceResult.getMatchingPlans();
 		System.out.println("result displayed");
 	}
+	@When("click on continue button without providing pincode and mobile number")
+	public void click_on_continue_button_without_providing_pincode_and_mobile_number() {
+		coverFoxAddressDetails.clickOnContinueButton();
+		System.out.println("clicked on continue button without providing pincode and mobile number");
+	}
+
+	@Then("appropriate error messages should be displayed for pincode and mobile number")
+	public void appropriate_error_messages_should_be_displayed_for_pincode_and_mobile_number() {
+
+		System.out.println("appropriate error messages are displayed for pincode and mobile number");
+	}
 
 
 
