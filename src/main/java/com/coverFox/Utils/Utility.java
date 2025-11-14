@@ -61,7 +61,7 @@ public class Utility {
 	}
 	public static String ReadDataFromProperties(String key) throws IOException
 	{	Properties properties =new Properties();
-	FileInputStream myfile=new FileInputStream("C:\\Users\\admin\\eclipse-workspace\\coverFox\\src\\main\\resources\\config\\config.properties");
+	FileInputStream myfile=new FileInputStream("C:\\Users\\HP\\eclipse-workspace\\CoverFox\\src\\main\\resources\\config\\config.properties");
 	properties.load(myfile);
 	
 	String data=properties.getProperty(key);
