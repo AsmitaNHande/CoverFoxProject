@@ -1,0 +1,9 @@
+<extent>
+    <configuration>
+        <reportName>CoverFox Automation Report</reportName>
+        <encoding>UTF-8</encoding>
+        <theme>dark</theme>
+        <documentTitle>CoverFox Test Report</documentTitle>
+        <protocol>HTTPS</protocol>
+    </configuration>
+</extent>

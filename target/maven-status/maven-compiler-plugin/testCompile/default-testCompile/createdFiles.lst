@@ -1,3 +1,4 @@
 coverFoxRunner\Runner.class
 coverFoxStepDefinitions\StepDefinitions.class
 hooks\Hooks.class
+demo\NewTest.class
